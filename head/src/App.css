@@ -5,3 +5,61 @@
   margin: 0%;
   padding: 0%;
 }
+
+.header {
+  z-index: -10;
+  margin: auto;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+}
+
+.sidebar {
+  position: relative;
+  z-index: 10;
+  margin: auto;
+  height: 1335px;
+  width: 65px;
+  background-color: red;
+}
+
+.searchBar {
+  position: absolute;
+  left: 30%;
+}
+
+.activitybar {
+  position: fixed;
+  width: 300px;
+  right: 10%;
+}
+
+.avatar {
+  position: fixed;
+  left: 100%;
+}
+
+.group {
+  position: relative;
+  left: 25%;
+}
+
+.word {
+  position: relative;
+  left: 2%
+}
+
+.photos {
+  position: relative;
+  left: 25%;
+}
+
+.list {
+  position: relative;
+  left: 25%;
+}
+
+.convo {
+  position: relative;
+  left: 15%
+}
